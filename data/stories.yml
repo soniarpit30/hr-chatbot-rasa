@@ -1,0 +1,68 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - action: utter_questions
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - action: utter_questions
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  - action: utter_questions
+
+- story: about company
+  steps:
+  - intent: about_company
+  - action: utter_about_company
+
+- story: about ML department
+  steps:
+  - intent: about_ML_department
+  - action: utter_about_ML_department
+
+- story: pay date
+  steps:
+  - intent: pay_date
+  - action: utter_pay_date
+
+- story: insurance policy
+  steps:
+  - intent: insurance_policy
+  - action: utter_insurance_policy
+
+- story: learningAndDevelopment policy
+  steps:
+  - intent: learningAndDevelopment_policy
+  - action: utter_learningAndDevelopment_policy
+
+- story: leave policy
+  steps:
+  - intent: leave_policy
+  - action: utter_leave_policy
+
+- story: exit policy
+  steps:
+  - intent: exit_policy
+  - action: utter_exit_policy

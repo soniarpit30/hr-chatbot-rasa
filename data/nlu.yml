@@ -1,0 +1,138 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: about_company
+  examples: |
+    - tell me about our company
+    - what does our company do
+    - where is the headquarter
+  
+- intent: about_ML_department
+  examples: |
+    - tell me about ABC department
+    - what does ABC department do
+    - who is the HOD of ABC department
+
+- intent: pay_date
+  examples: |
+    - when the salary will be credited ? 
+    - when will I get my salary ?
+    - what is the pay date ?
+    - when will I get paid ?
+
+- intent: insurance_policy
+  examples: |
+    - what is the medical insurance policy ?
+    - what is the medical insurance amount ? 
+
+- intent: learningAndDevelopment_policy
+  examples: |
+    - is there any learning and development policy ?
+    - what is the policy for reimbursement for online learning course ?
+    - how to get reimbursement for online course ?
+    - what is the learning and development policy ? 
+
+- intent: leave_policy
+  examples: |
+    - how to apply leave ?
+    - I want to apply leave.
+    - Apply leave
+    - what is the leave policy ?
+
+- intent: exit_policy
+  examples: |
+    - what is the seperation policy ?
+    - what is the resignation policy ?
+    - what is the policy if I resign ?
+    - what is the notice period ?
+    - what is the exit policy ?

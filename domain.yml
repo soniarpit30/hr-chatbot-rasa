@@ -1,0 +1,67 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - about_company
+  - about_ML_department
+  - pay_date
+  - insurance_policy
+  - learningAndDevelopment_policy
+  - leave_policy
+  - exit_policy
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_questions:
+  - text: You can ask me about our comany, ML department, pay date, insurance policy, leave policy, learning and development policy, exit poilicy.
+
+  utter_about_company:
+  - text: |-
+      Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015,[3] and became the parent company of Google and several former Google subsidiaries.[4][5][6] Alphabet is the world's third-largest technology company by revenue and one of the world's most valuable companies.[7][8] It is one of the Big Five American information technology companies, alongside Amazon, Apple, Meta, and Microsoft.
+      For more information, please visit https://en.wikipedia.org/wiki/Alphabet_Inc
+
+  utter_about_ML_department:
+  - text: |-
+      In ML department, we work on machine learing project. We train budding engineers to be the pioneer of tomorrow.
+ 
+  utter_pay_date:
+  - text: As per the company policy, you will get your salary credited on last working day of each month.
+  
+  utter_insurance_policy:
+  - text: By default, all employees are covered under group medical insurance policy sponsered by company. For more info, please visit www.orginsurance.com
+  
+  utter_learningAndDevelopment_policy:
+  - text: You can claim amount upto INR 50000 under learning and development policy for any course done online or offline. For more info, please visit www.learingdevelopemt.com
+
+  utter_leave_policy:
+  - text: please visit www.leave.com
+
+  utter_exit_policy:
+  - text: please visit www.exit.com
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
