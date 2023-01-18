@@ -47,8 +47,8 @@ To use rasa chatbot on Windows 10, follow below steps:
     Then write below code lines in credentials.yml with proper indentation.
 
     telegram:
-      access_token: 5633780468:AAHX_byJWXYhgyQjtLLB0Jsrjz-tsl3rbCg
-      verify: corona365_bot
+      access_token: 5633780468:AAHX_byJWXYhgiQjtLLB0Jsrjz-tsl3rbCg
+      verify: google_hr_bot
       webhook_url: "https://9b9d-2401-4900-1f26-7c69-fd4a-4b80-dd23-a592.ngrok.io/webhooks/telegram/webhook"
 
     above mentioned access_token is generated from telegram. For this search for BotFather in telegram --> enter /start --> /newbot --> <bot_name> --> <username_bot> --> access token will be generated.
